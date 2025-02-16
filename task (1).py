@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as ai
 
-ai.configure(api_key="AIzaSyCuQXkArS5QuXzMWZvDunInlyejd_9WQTs")
+ai.configure(api_key="Enter Your API_Key")
 
 sys_prompt = """You are a friendly AI assistant who specializes in Python code reviews.  
 When given a Python code snippet, your task is to:
